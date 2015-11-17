@@ -1,0 +1,18 @@
+PODS:
+  - ApiAI/AudioFileConverter (0.4.3):
+    - ApiAI/Core
+  - ApiAI/Core (0.4.3)
+  - ApiAI/ResponseMapping (0.4.3):
+    - ApiAI/Core (~> 1.1.0)
+  - ApiAI/VoiceFileRequest (0.4.3):
+    - ApiAI/Core
+
+DEPENDENCIES:
+  - ApiAI/AudioFileConverter
+  - ApiAI/ResponseMapping
+  - ApiAI/VoiceFileRequest
+
+SPEC CHECKSUMS:
+  ApiAI: b5b99670ed4b4aa208fef88633b05142db1ff470
+
+COCOAPODS: 0.39.0

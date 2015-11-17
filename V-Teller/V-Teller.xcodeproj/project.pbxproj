@@ -1,0 +1,1062 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BE16511BFB45EB00A31ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16501BFB45EB00A31ECA /* main.m */; };
+		52BE16541BFB45EB00A31ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16531BFB45EB00A31ECA /* AppDelegate.m */; };
+		52BE16571BFB45EB00A31ECA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16561BFB45EB00A31ECA /* ViewController.m */; };
+		52BE165A1BFB45EB00A31ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BE16581BFB45EB00A31ECA /* Main.storyboard */; };
+		52BE165D1BFB45EB00A31ECA /* V_Teller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52BE165B1BFB45EB00A31ECA /* V_Teller.xcdatamodeld */; };
+		52BE165F1BFB45EB00A31ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BE165E1BFB45EB00A31ECA /* Assets.xcassets */; };
+		52BE16621BFB45EB00A31ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BE16601BFB45EB00A31ECA /* LaunchScreen.storyboard */; };
+		52BE166D1BFB45EB00A31ECA /* V_TellerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE166C1BFB45EB00A31ECA /* V_TellerTests.m */; };
+		52BE16781BFB45EB00A31ECA /* V_TellerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16771BFB45EB00A31ECA /* V_TellerUITests.m */; };
+		52BE168B1BFB479700A31ECA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BE16891BFB479700A31ECA /* Interface.storyboard */; };
+		52BE168D1BFB479700A31ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BE168C1BFB479700A31ECA /* Assets.xcassets */; };
+		52BE16941BFB479700A31ECA /* Watch V-Teller Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52BE16931BFB479700A31ECA /* Watch V-Teller Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52BE169C1BFB479700A31ECA /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE169B1BFB479700A31ECA /* InterfaceController.m */; };
+		52BE169F1BFB479700A31ECA /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE169E1BFB479700A31ECA /* ExtensionDelegate.m */; };
+		52BE16A21BFB479700A31ECA /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16A11BFB479700A31ECA /* NotificationController.m */; };
+		52BE16A41BFB479700A31ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BE16A31BFB479700A31ECA /* Assets.xcassets */; };
+		52BE16A81BFB479800A31ECA /* Watch V-Teller.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 52BE16871BFB479700A31ECA /* Watch V-Teller.app */; };
+		B4331EC1F0DD75800282894D /* libPods-V-TellerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA06391897B99F44B5DE926 /* libPods-V-TellerUITests.a */; };
+		BB8E6FCA3F7CCC749ADBB8F3 /* libPods-Watch V-Teller Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E5BED3BBD2C8CD20F480A8 /* libPods-Watch V-Teller Extension.a */; };
+		E817B04FF0568A6998ABEF51 /* libPods-V-TellerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC730C839A84F096FE6FD56 /* libPods-V-TellerTests.a */; };
+		EA3A36151CB63100914C696B /* libPods-V-Teller.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3907854A52C759DF599C2EA /* libPods-V-Teller.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52BE16691BFB45EB00A31ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BE16441BFB45EB00A31ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BE164B1BFB45EB00A31ECA;
+			remoteInfo = "V-Teller";
+		};
+		52BE16741BFB45EB00A31ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BE16441BFB45EB00A31ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BE164B1BFB45EB00A31ECA;
+			remoteInfo = "V-Teller";
+		};
+		52BE16951BFB479700A31ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BE16441BFB45EB00A31ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BE16921BFB479700A31ECA;
+			remoteInfo = "Watch V-Teller Extension";
+		};
+		52BE16A61BFB479800A31ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BE16441BFB45EB00A31ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BE16861BFB479700A31ECA;
+			remoteInfo = "Watch V-Teller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52BE16AC1BFB479800A31ECA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				52BE16941BFB479700A31ECA /* Watch V-Teller Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE16B01BFB479800A31ECA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				52BE16A81BFB479800A31ECA /* Watch V-Teller.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3EA06391897B99F44B5DE926 /* libPods-V-TellerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-V-TellerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4265855E495B952A0D411A7C /* Pods-V-TellerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V-TellerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-V-TellerUITests/Pods-V-TellerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52BE164C1BFB45EB00A31ECA /* V-Teller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "V-Teller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BE16501BFB45EB00A31ECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52BE16521BFB45EB00A31ECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52BE16531BFB45EB00A31ECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52BE16551BFB45EB00A31ECA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52BE16561BFB45EB00A31ECA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52BE16591BFB45EB00A31ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52BE165C1BFB45EB00A31ECA /* V_Teller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = V_Teller.xcdatamodel; sourceTree = "<group>"; };
+		52BE165E1BFB45EB00A31ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52BE16611BFB45EB00A31ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52BE16631BFB45EB00A31ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BE16681BFB45EB00A31ECA /* V-TellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "V-TellerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BE166C1BFB45EB00A31ECA /* V_TellerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V_TellerTests.m; sourceTree = "<group>"; };
+		52BE166E1BFB45EB00A31ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BE16731BFB45EB00A31ECA /* V-TellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "V-TellerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BE16771BFB45EB00A31ECA /* V_TellerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V_TellerUITests.m; sourceTree = "<group>"; };
+		52BE16791BFB45EB00A31ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BE16871BFB479700A31ECA /* Watch V-Teller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch V-Teller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BE168A1BFB479700A31ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		52BE168C1BFB479700A31ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52BE168E1BFB479700A31ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BE16931BFB479700A31ECA /* Watch V-Teller Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch V-Teller Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BE16991BFB479700A31ECA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		52BE169A1BFB479700A31ECA /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		52BE169B1BFB479700A31ECA /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		52BE169D1BFB479700A31ECA /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		52BE169E1BFB479700A31ECA /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		52BE16A01BFB479700A31ECA /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		52BE16A11BFB479700A31ECA /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		52BE16A31BFB479700A31ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52BE16A51BFB479700A31ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D13CB47524A86F886C7C40D /* Pods-V-Teller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V-Teller.release.xcconfig"; path = "Pods/Target Support Files/Pods-V-Teller/Pods-V-Teller.release.xcconfig"; sourceTree = "<group>"; };
+		75E5BED3BBD2C8CD20F480A8 /* libPods-Watch V-Teller Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Watch V-Teller Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810480AEAFD4AC563910AC3D /* Pods-Watch V-Teller Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch V-Teller Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Watch V-Teller Extension/Pods-Watch V-Teller Extension.release.xcconfig"; sourceTree = "<group>"; };
+		819F1E5650F3BD193A85F65A /* Pods-V-Teller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V-Teller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-V-Teller/Pods-V-Teller.debug.xcconfig"; sourceTree = "<group>"; };
+		982F3A1C9E4B7F77CE193DF8 /* Pods-V-TellerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V-TellerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-V-TellerTests/Pods-V-TellerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA134C654B195E48218E709A /* Pods-Watch V-Teller Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watch V-Teller Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Watch V-Teller Extension/Pods-Watch V-Teller Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC730C839A84F096FE6FD56 /* libPods-V-TellerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-V-TellerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E149D417AD028F33A78D77 /* Pods-V-TellerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V-TellerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-V-TellerTests/Pods-V-TellerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3907854A52C759DF599C2EA /* libPods-V-Teller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-V-Teller.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C729BCB28EF9A4BD332E37D4 /* Pods-V-TellerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V-TellerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-V-TellerUITests/Pods-V-TellerUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BE16491BFB45EB00A31ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3A36151CB63100914C696B /* libPods-V-Teller.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE16651BFB45EB00A31ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E817B04FF0568A6998ABEF51 /* libPods-V-TellerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE16701BFB45EB00A31ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4331EC1F0DD75800282894D /* libPods-V-TellerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE16901BFB479700A31ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8E6FCA3F7CCC749ADBB8F3 /* libPods-Watch V-Teller Extension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52BE16431BFB45EB00A31ECA = {
+			isa = PBXGroup;
+			children = (
+				52BE164E1BFB45EB00A31ECA /* V-Teller */,
+				52BE166B1BFB45EB00A31ECA /* V-TellerTests */,
+				52BE16761BFB45EB00A31ECA /* V-TellerUITests */,
+				52BE16881BFB479700A31ECA /* Watch V-Teller */,
+				52BE16971BFB479700A31ECA /* Watch V-Teller Extension */,
+				52BE164D1BFB45EB00A31ECA /* Products */,
+				DCB137C3E26DBD4C067AFD4D /* Pods */,
+				5F6123707E7E274199ABBC99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52BE164D1BFB45EB00A31ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BE164C1BFB45EB00A31ECA /* V-Teller.app */,
+				52BE16681BFB45EB00A31ECA /* V-TellerTests.xctest */,
+				52BE16731BFB45EB00A31ECA /* V-TellerUITests.xctest */,
+				52BE16871BFB479700A31ECA /* Watch V-Teller.app */,
+				52BE16931BFB479700A31ECA /* Watch V-Teller Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BE164E1BFB45EB00A31ECA /* V-Teller */ = {
+			isa = PBXGroup;
+			children = (
+				52BE16521BFB45EB00A31ECA /* AppDelegate.h */,
+				52BE16531BFB45EB00A31ECA /* AppDelegate.m */,
+				52BE16551BFB45EB00A31ECA /* ViewController.h */,
+				52BE16561BFB45EB00A31ECA /* ViewController.m */,
+				52BE16581BFB45EB00A31ECA /* Main.storyboard */,
+				52BE165E1BFB45EB00A31ECA /* Assets.xcassets */,
+				52BE16601BFB45EB00A31ECA /* LaunchScreen.storyboard */,
+				52BE16631BFB45EB00A31ECA /* Info.plist */,
+				52BE165B1BFB45EB00A31ECA /* V_Teller.xcdatamodeld */,
+				52BE164F1BFB45EB00A31ECA /* Supporting Files */,
+			);
+			path = "V-Teller";
+			sourceTree = "<group>";
+		};
+		52BE164F1BFB45EB00A31ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BE16501BFB45EB00A31ECA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52BE166B1BFB45EB00A31ECA /* V-TellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				52BE166C1BFB45EB00A31ECA /* V_TellerTests.m */,
+				52BE166E1BFB45EB00A31ECA /* Info.plist */,
+			);
+			path = "V-TellerTests";
+			sourceTree = "<group>";
+		};
+		52BE16761BFB45EB00A31ECA /* V-TellerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52BE16771BFB45EB00A31ECA /* V_TellerUITests.m */,
+				52BE16791BFB45EB00A31ECA /* Info.plist */,
+			);
+			path = "V-TellerUITests";
+			sourceTree = "<group>";
+		};
+		52BE16881BFB479700A31ECA /* Watch V-Teller */ = {
+			isa = PBXGroup;
+			children = (
+				52BE16891BFB479700A31ECA /* Interface.storyboard */,
+				52BE168C1BFB479700A31ECA /* Assets.xcassets */,
+				52BE168E1BFB479700A31ECA /* Info.plist */,
+			);
+			path = "Watch V-Teller";
+			sourceTree = "<group>";
+		};
+		52BE16971BFB479700A31ECA /* Watch V-Teller Extension */ = {
+			isa = PBXGroup;
+			children = (
+				52BE169A1BFB479700A31ECA /* InterfaceController.h */,
+				52BE169B1BFB479700A31ECA /* InterfaceController.m */,
+				52BE169D1BFB479700A31ECA /* ExtensionDelegate.h */,
+				52BE169E1BFB479700A31ECA /* ExtensionDelegate.m */,
+				52BE16A01BFB479700A31ECA /* NotificationController.h */,
+				52BE16A11BFB479700A31ECA /* NotificationController.m */,
+				52BE16A31BFB479700A31ECA /* Assets.xcassets */,
+				52BE16A51BFB479700A31ECA /* Info.plist */,
+				52BE16981BFB479700A31ECA /* Supporting Files */,
+			);
+			path = "Watch V-Teller Extension";
+			sourceTree = "<group>";
+		};
+		52BE16981BFB479700A31ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BE16991BFB479700A31ECA /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F6123707E7E274199ABBC99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3907854A52C759DF599C2EA /* libPods-V-Teller.a */,
+				BEC730C839A84F096FE6FD56 /* libPods-V-TellerTests.a */,
+				3EA06391897B99F44B5DE926 /* libPods-V-TellerUITests.a */,
+				75E5BED3BBD2C8CD20F480A8 /* libPods-Watch V-Teller Extension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB137C3E26DBD4C067AFD4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				819F1E5650F3BD193A85F65A /* Pods-V-Teller.debug.xcconfig */,
+				6D13CB47524A86F886C7C40D /* Pods-V-Teller.release.xcconfig */,
+				982F3A1C9E4B7F77CE193DF8 /* Pods-V-TellerTests.debug.xcconfig */,
+				C1E149D417AD028F33A78D77 /* Pods-V-TellerTests.release.xcconfig */,
+				4265855E495B952A0D411A7C /* Pods-V-TellerUITests.debug.xcconfig */,
+				C729BCB28EF9A4BD332E37D4 /* Pods-V-TellerUITests.release.xcconfig */,
+				BA134C654B195E48218E709A /* Pods-Watch V-Teller Extension.debug.xcconfig */,
+				810480AEAFD4AC563910AC3D /* Pods-Watch V-Teller Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BE164B1BFB45EB00A31ECA /* V-Teller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BE167C1BFB45EB00A31ECA /* Build configuration list for PBXNativeTarget "V-Teller" */;
+			buildPhases = (
+				CAA78731D25219378126EA5B /* Check Pods Manifest.lock */,
+				52BE16481BFB45EB00A31ECA /* Sources */,
+				52BE16491BFB45EB00A31ECA /* Frameworks */,
+				52BE164A1BFB45EB00A31ECA /* Resources */,
+				52BE16B01BFB479800A31ECA /* Embed Watch Content */,
+				D0FF5B6322E1468D88F26853 /* Embed Pods Frameworks */,
+				3C5300D95C3EE5F0333CF7BC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BE16A71BFB479800A31ECA /* PBXTargetDependency */,
+			);
+			name = "V-Teller";
+			productName = "V-Teller";
+			productReference = 52BE164C1BFB45EB00A31ECA /* V-Teller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52BE16671BFB45EB00A31ECA /* V-TellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BE167F1BFB45EB00A31ECA /* Build configuration list for PBXNativeTarget "V-TellerTests" */;
+			buildPhases = (
+				DD1D8B955FB59079BE7BA50B /* Check Pods Manifest.lock */,
+				52BE16641BFB45EB00A31ECA /* Sources */,
+				52BE16651BFB45EB00A31ECA /* Frameworks */,
+				52BE16661BFB45EB00A31ECA /* Resources */,
+				439A3DB8B472036660109F18 /* Embed Pods Frameworks */,
+				18EC67ECCE6C394B74FE71EC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BE166A1BFB45EB00A31ECA /* PBXTargetDependency */,
+			);
+			name = "V-TellerTests";
+			productName = "V-TellerTests";
+			productReference = 52BE16681BFB45EB00A31ECA /* V-TellerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52BE16721BFB45EB00A31ECA /* V-TellerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BE16821BFB45EB00A31ECA /* Build configuration list for PBXNativeTarget "V-TellerUITests" */;
+			buildPhases = (
+				852EE7208B2B8F1B0640DBE5 /* Check Pods Manifest.lock */,
+				52BE166F1BFB45EB00A31ECA /* Sources */,
+				52BE16701BFB45EB00A31ECA /* Frameworks */,
+				52BE16711BFB45EB00A31ECA /* Resources */,
+				2A03C209014FCD89F34C9544 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BE16751BFB45EB00A31ECA /* PBXTargetDependency */,
+			);
+			name = "V-TellerUITests";
+			productName = "V-TellerUITests";
+			productReference = 52BE16731BFB45EB00A31ECA /* V-TellerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		52BE16861BFB479700A31ECA /* Watch V-Teller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BE16AD1BFB479800A31ECA /* Build configuration list for PBXNativeTarget "Watch V-Teller" */;
+			buildPhases = (
+				52BE16851BFB479700A31ECA /* Resources */,
+				52BE16AC1BFB479800A31ECA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BE16961BFB479700A31ECA /* PBXTargetDependency */,
+			);
+			name = "Watch V-Teller";
+			productName = "Watch V-Teller";
+			productReference = 52BE16871BFB479700A31ECA /* Watch V-Teller.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		52BE16921BFB479700A31ECA /* Watch V-Teller Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BE16A91BFB479800A31ECA /* Build configuration list for PBXNativeTarget "Watch V-Teller Extension" */;
+			buildPhases = (
+				50F8CDF4A6CE0B3B2551099A /* Check Pods Manifest.lock */,
+				52BE168F1BFB479700A31ECA /* Sources */,
+				52BE16901BFB479700A31ECA /* Frameworks */,
+				52BE16911BFB479700A31ECA /* Resources */,
+				157B62A29A42436DF84E8B55 /* Embed Pods Frameworks */,
+				20587E834A997A8DD2DA5664 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch V-Teller Extension";
+			productName = "Watch V-Teller Extension";
+			productReference = 52BE16931BFB479700A31ECA /* Watch V-Teller Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BE16441BFB45EB00A31ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Arun Ramakani";
+				TargetAttributes = {
+					52BE164B1BFB45EB00A31ECA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = VD4986N57V;
+					};
+					52BE16671BFB45EB00A31ECA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 52BE164B1BFB45EB00A31ECA;
+					};
+					52BE16721BFB45EB00A31ECA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 52BE164B1BFB45EB00A31ECA;
+					};
+					52BE16861BFB479700A31ECA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = VD4986N57V;
+					};
+					52BE16921BFB479700A31ECA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = VD4986N57V;
+					};
+				};
+			};
+			buildConfigurationList = 52BE16471BFB45EB00A31ECA /* Build configuration list for PBXProject "V-Teller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52BE16431BFB45EB00A31ECA;
+			productRefGroup = 52BE164D1BFB45EB00A31ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BE164B1BFB45EB00A31ECA /* V-Teller */,
+				52BE16671BFB45EB00A31ECA /* V-TellerTests */,
+				52BE16721BFB45EB00A31ECA /* V-TellerUITests */,
+				52BE16861BFB479700A31ECA /* Watch V-Teller */,
+				52BE16921BFB479700A31ECA /* Watch V-Teller Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52BE164A1BFB45EB00A31ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE16621BFB45EB00A31ECA /* LaunchScreen.storyboard in Resources */,
+				52BE165F1BFB45EB00A31ECA /* Assets.xcassets in Resources */,
+				52BE165A1BFB45EB00A31ECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE16661BFB45EB00A31ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE16711BFB45EB00A31ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE16851BFB479700A31ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE168D1BFB479700A31ECA /* Assets.xcassets in Resources */,
+				52BE168B1BFB479700A31ECA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE16911BFB479700A31ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE16A41BFB479700A31ECA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		157B62A29A42436DF84E8B55 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watch V-Teller Extension/Pods-Watch V-Teller Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18EC67ECCE6C394B74FE71EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-V-TellerTests/Pods-V-TellerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20587E834A997A8DD2DA5664 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Watch V-Teller Extension/Pods-Watch V-Teller Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A03C209014FCD89F34C9544 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-V-TellerUITests/Pods-V-TellerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C5300D95C3EE5F0333CF7BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-V-Teller/Pods-V-Teller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		439A3DB8B472036660109F18 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-V-TellerTests/Pods-V-TellerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50F8CDF4A6CE0B3B2551099A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		852EE7208B2B8F1B0640DBE5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA78731D25219378126EA5B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0FF5B6322E1468D88F26853 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-V-Teller/Pods-V-Teller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1D8B955FB59079BE7BA50B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BE16481BFB45EB00A31ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE16571BFB45EB00A31ECA /* ViewController.m in Sources */,
+				52BE16541BFB45EB00A31ECA /* AppDelegate.m in Sources */,
+				52BE165D1BFB45EB00A31ECA /* V_Teller.xcdatamodeld in Sources */,
+				52BE16511BFB45EB00A31ECA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE16641BFB45EB00A31ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE166D1BFB45EB00A31ECA /* V_TellerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE166F1BFB45EB00A31ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE16781BFB45EB00A31ECA /* V_TellerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE168F1BFB479700A31ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE169F1BFB479700A31ECA /* ExtensionDelegate.m in Sources */,
+				52BE169C1BFB479700A31ECA /* InterfaceController.m in Sources */,
+				52BE16A21BFB479700A31ECA /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52BE166A1BFB45EB00A31ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BE164B1BFB45EB00A31ECA /* V-Teller */;
+			targetProxy = 52BE16691BFB45EB00A31ECA /* PBXContainerItemProxy */;
+		};
+		52BE16751BFB45EB00A31ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BE164B1BFB45EB00A31ECA /* V-Teller */;
+			targetProxy = 52BE16741BFB45EB00A31ECA /* PBXContainerItemProxy */;
+		};
+		52BE16961BFB479700A31ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BE16921BFB479700A31ECA /* Watch V-Teller Extension */;
+			targetProxy = 52BE16951BFB479700A31ECA /* PBXContainerItemProxy */;
+		};
+		52BE16A71BFB479800A31ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BE16861BFB479700A31ECA /* Watch V-Teller */;
+			targetProxy = 52BE16A61BFB479800A31ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52BE16581BFB45EB00A31ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BE16591BFB45EB00A31ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52BE16601BFB45EB00A31ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BE16611BFB45EB00A31ECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		52BE16891BFB479700A31ECA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BE168A1BFB479700A31ECA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52BE167A1BFB45EB00A31ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52BE167B1BFB45EB00A31ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BE167D1BFB45EB00A31ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819F1E5650F3BD193A85F65A /* Pods-V-Teller.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "V-Teller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-Teller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52BE167E1BFB45EB00A31ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D13CB47524A86F886C7C40D /* Pods-V-Teller.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "V-Teller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-Teller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52BE16801BFB45EB00A31ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982F3A1C9E4B7F77CE193DF8 /* Pods-V-TellerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "V-TellerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-TellerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/V-Teller.app/V-Teller";
+			};
+			name = Debug;
+		};
+		52BE16811BFB45EB00A31ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E149D417AD028F33A78D77 /* Pods-V-TellerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "V-TellerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-TellerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/V-Teller.app/V-Teller";
+			};
+			name = Release;
+		};
+		52BE16831BFB45EB00A31ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4265855E495B952A0D411A7C /* Pods-V-TellerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "V-TellerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-TellerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "V-Teller";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		52BE16841BFB45EB00A31ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C729BCB28EF9A4BD332E37D4 /* Pods-V-TellerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "V-TellerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-TellerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "V-Teller";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		52BE16AA1BFB479800A31ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA134C654B195E48218E709A /* Pods-Watch V-Teller Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Watch V-Teller Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-Teller.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		52BE16AB1BFB479800A31ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810480AEAFD4AC563910AC3D /* Pods-Watch V-Teller Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Watch V-Teller Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-Teller.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		52BE16AE1BFB479800A31ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = Watch_V_Teller_Extension;
+				INFOPLIST_FILE = "Watch V-Teller/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-Teller.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		52BE16AF1BFB479800A31ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = Watch_V_Teller_Extension;
+				INFOPLIST_FILE = "Watch V-Teller/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-Teller.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BE16471BFB45EB00A31ECA /* Build configuration list for PBXProject "V-Teller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BE167A1BFB45EB00A31ECA /* Debug */,
+				52BE167B1BFB45EB00A31ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BE167C1BFB45EB00A31ECA /* Build configuration list for PBXNativeTarget "V-Teller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BE167D1BFB45EB00A31ECA /* Debug */,
+				52BE167E1BFB45EB00A31ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BE167F1BFB45EB00A31ECA /* Build configuration list for PBXNativeTarget "V-TellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BE16801BFB45EB00A31ECA /* Debug */,
+				52BE16811BFB45EB00A31ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BE16821BFB45EB00A31ECA /* Build configuration list for PBXNativeTarget "V-TellerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BE16831BFB45EB00A31ECA /* Debug */,
+				52BE16841BFB45EB00A31ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BE16A91BFB479800A31ECA /* Build configuration list for PBXNativeTarget "Watch V-Teller Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BE16AA1BFB479800A31ECA /* Debug */,
+				52BE16AB1BFB479800A31ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BE16AD1BFB479800A31ECA /* Build configuration list for PBXNativeTarget "Watch V-Teller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BE16AE1BFB479800A31ECA /* Debug */,
+				52BE16AF1BFB479800A31ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52BE165B1BFB45EB00A31ECA /* V_Teller.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52BE165C1BFB45EB00A31ECA /* V_Teller.xcdatamodel */,
+			);
+			currentVersion = 52BE165C1BFB45EB00A31ECA /* V_Teller.xcdatamodel */;
+			path = V_Teller.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52BE16441BFB45EB00A31ECA /* Project object */;
+}

@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'V-Teller' do
+    
+    pod 'ApiAI/AudioFileConverter'
+    pod 'ApiAI/VoiceFileRequest'
+    
+end
+
+target 'Watch V-Teller' do
+    
+end
+
+target 'Watch V-Teller Extension' do
+    platform :watchos, '2.0'
+    
+    pod 'ApiAI/VoiceFileRequest'
+    pod 'ApiAI/ResponseMapping'
+end

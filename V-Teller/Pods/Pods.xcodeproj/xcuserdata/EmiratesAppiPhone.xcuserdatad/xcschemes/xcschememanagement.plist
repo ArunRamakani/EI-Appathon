@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-V-Teller-ApiAI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-V-Teller.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Watch V-Teller Extension-ApiAI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Watch V-Teller Extension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0FDF7999FE9C9B0D2F689B554602FD2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28F33B5CC49F1C1E5FD8F22AF1EE9D5F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75198C4798F00D8C5BEBD0AEB139F99C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C627ADB7706DF677ECF38AC3CF005EB0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
