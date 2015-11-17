@@ -8,7 +8,10 @@
 
 #import <WatchKit/WatchKit.h>
 #import <Foundation/Foundation.h>
+#import "WatchExtCons.h"
 
 @interface InterfaceController : WKInterfaceController
+
+-(IBAction) recordSound:(id)sender;
 
 @end
