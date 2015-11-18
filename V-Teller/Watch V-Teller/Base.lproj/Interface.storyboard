@@ -10,16 +10,48 @@
             <objects>
                 <controller title="V-Teller" id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <button width="1" alignment="left" verticalAlignment="center" title="Press &amp; Speak" id="L9u-F9-8FP">
-                            <color key="backgroundColor" red="0.59314090149999998" green="0.67758098820000001" blue="0.37743062399999999" alpha="1" colorSpace="calibratedRGB"/>
-                            <connections>
-                                <action selector="recordSound:" destination="AgC-eL-Hgc" id="LG7-5l-fqb"/>
-                            </connections>
-                        </button>
+                        <group width="1" height="146" alignment="left" layout="vertical" id="Fof-So-K9C" userLabel="Record Group">
+                            <items>
+                                <group width="1" height="32.5" alignment="left" id="KHK-ae-Frb">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="Press &amp; Speak" textAlignment="center" id="wMj-u2-TpQ" userLabel="Start "/>
+                                    </items>
+                                </group>
+                                <group width="1" height="103" alignment="left" id="6hn-nF-BRK">
+                                    <items>
+                                        <button width="90" height="90" alignment="center" verticalAlignment="center" backgroundImage="RecordImage" id="L9u-F9-8FP">
+                                            <color key="backgroundColor" red="0.59314090149999998" green="0.67758098820000001" blue="0.37743062399999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="recordSound:" destination="AgC-eL-Hgc" id="LG7-5l-fqb"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <group width="1" height="144" alignment="left" hidden="YES" layout="vertical" id="Mzk-a8-gah" userLabel="Progress Bar Group">
+                            <items>
+                                <group width="1" height="32.5" alignment="left" id="A2A-PH-9ns">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="Please Wait ..." textAlignment="center" numberOfLines="2" id="AIc-9Q-E9k"/>
+                                    </items>
+                                </group>
+                                <group width="1" height="103" alignment="left" id="2Nt-ZG-1qi">
+                                    <items>
+                                        <imageView height="1" alignment="left" id="L8t-Z5-ViB" userLabel="Progress Image"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
                     </items>
+                    <connections>
+                        <outlet property="pleaseWaitAnimation" destination="L8t-Z5-ViB" id="FdB-Ns-63C"/>
+                        <outlet property="progressGroup" destination="Mzk-a8-gah" id="0ZU-nr-SeC"/>
+                        <outlet property="recordGroup" destination="Fof-So-K9C" id="cUo-ei-4lW"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="220" y="295.5"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
