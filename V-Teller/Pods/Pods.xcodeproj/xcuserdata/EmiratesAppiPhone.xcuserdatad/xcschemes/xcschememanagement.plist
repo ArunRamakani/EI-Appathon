@@ -4,12 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-V-Teller-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-V-Teller-ApiAI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-V-Teller.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Watch V-Teller Extension-AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0FDF7999FE9C9B0D2F689B554602FD2A</key>
+		<key>2D69329C6FE5CD7B2EB709417EB0DBEC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>28F33B5CC49F1C1E5FD8F22AF1EE9D5F</key>
+		<key>5D3B89D59A037A3303B25A862F162FD9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>75198C4798F00D8C5BEBD0AEB139F99C</key>
+		<key>A486C46F8687B5F4EB1E12837858B82B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C627ADB7706DF677ECF38AC3CF005EB0</key>
+		<key>C6E8CAB2F51F534B251D4D02610C880B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D62A3FACBF70B40E9FB1E760F7F4B89D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB93A719EAC68C850B23B6B6D045EB73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

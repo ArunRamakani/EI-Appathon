@@ -53,6 +53,45 @@
             </objects>
             <point key="canvasLocation" x="220" y="295.5"/>
         </scene>
+        <!--MapController-->
+        <scene sceneID="hOA-0k-5yT">
+            <objects>
+                <controller identifier="MapController" id="afH-3I-XfH" customClass="MapInterfaceController">
+                    <items>
+                        <map height="100" alignment="left" id="itU-hf-doZ"/>
+                        <button width="1" alignment="left" title="View Route in iPhone" id="CUp-qC-bSD">
+                            <color key="titleColor" red="1" green="0.37530393569999998" blue="0.42312568859999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="17"/>
+                            <connections>
+                                <action selector="handOff:" destination="afH-3I-XfH" id="V13-pi-ur2"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="map" destination="itU-hf-doZ" id="c5S-yD-bxD"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="459" y="26"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="jhc-mk-Q3S">
+            <objects>
+                <controller id="8nn-8F-8ql">
+                    <items>
+                        <table alignment="left" id="pzR-Pa-HSe">
+                            <items>
+                                <tableRow id="flP-2J-jow">
+                                    <group key="rootItem" width="1" alignment="left" id="Nbd-fn-V3g"/>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="459" y="301"/>
+        </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>

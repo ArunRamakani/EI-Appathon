@@ -5,6 +5,8 @@ target 'V-Teller' do
     
     pod 'ApiAI/AudioFileConverter'
     pod 'ApiAI/VoiceFileRequest'
+    pod 'AFNetworking'
+    pod 'MBProgressHUD'
     
 end
 
@@ -17,4 +19,6 @@ target 'Watch V-Teller Extension' do
     
     pod 'ApiAI/VoiceFileRequest'
     pod 'ApiAI/ResponseMapping'
+    pod 'AFNetworking'
+    
 end

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RootMapViewVCViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(void) restoreUserActivityState:(NSUserActivity *)activity {
+    
+    RootMapViewVCViewController *routeMap = [[RootMapViewVCViewController alloc] initWithNibName:@"RootMapViewVCViewController" bundle:nil];
+    routeMap.places = [[activity userInfo] valueForKey:@"places"];
+    [self presentViewController:routeMap animated:YES completion:^{
+        
+    }];
+    
 }
 
 @end

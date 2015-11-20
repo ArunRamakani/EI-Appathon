@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521E87AF1BFF49220064E39E /* VTellerWatchUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87AE1BFF49220064E39E /* VTellerWatchUtil.m */; };
+		521E87B21BFF4C9B0064E39E /* CurrentLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87B11BFF4C9B0064E39E /* CurrentLocationProvider.m */; };
+		521E87C51BFF4F720064E39E /* HEREPlacesDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87B51BFF4F720064E39E /* HEREPlacesDataProvider.m */; };
+		521E87C61BFF4F720064E39E /* HERERoutesDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87B71BFF4F720064E39E /* HERERoutesDataProvider.m */; };
+		521E87C71BFF4F720064E39E /* BoundingBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87BA1BFF4F720064E39E /* BoundingBox.m */; };
+		521E87C81BFF4F720064E39E /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87BC1BFF4F720064E39E /* Place.m */; };
+		521E87C91BFF4F720064E39E /* RouteInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87BE1BFF4F720064E39E /* RouteInfo.m */; };
+		521E87CA1BFF4F720064E39E /* RouteLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87C01BFF4F720064E39E /* RouteLeg.m */; };
+		521E87CB1BFF4F720064E39E /* RouteSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87C21BFF4F720064E39E /* RouteSummary.m */; };
+		521E87CC1BFF4F720064E39E /* StepInLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87C41BFF4F720064E39E /* StepInLeg.m */; };
+		521E87D41BFF52390064E39E /* NSDictionary+HEREParseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87CF1BFF52390064E39E /* NSDictionary+HEREParseError.m */; };
+		521E87D51BFF52390064E39E /* NSDictionary+HEREPlacesDictionaryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87D11BFF52390064E39E /* NSDictionary+HEREPlacesDictionaryHelper.m */; };
+		521E87D61BFF52390064E39E /* NSDictionary+HERERoutesDictionaryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87D31BFF52390064E39E /* NSDictionary+HERERoutesDictionaryHelper.m */; };
+		521E87D81BFF5BD60064E39E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521E87D71BFF5BD60064E39E /* MapKit.framework */; };
+		521E87DA1BFF5BEF0064E39E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521E87D91BFF5BEF0064E39E /* MapKit.framework */; };
+		521E87DD1BFF7AAE0064E39E /* MapInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87DC1BFF7AAE0064E39E /* MapInterfaceController.m */; };
+		521E87E11BFF99450064E39E /* RootMapViewVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87DF1BFF99450064E39E /* RootMapViewVCViewController.m */; };
+		521E87E21BFF99450064E39E /* RootMapViewVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521E87E01BFF99450064E39E /* RootMapViewVCViewController.xib */; };
 		52B2559F1BFB5E1800F422A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2559E1BFB5E1800F422A1 /* AVFoundation.framework */; };
 		52BE16511BFB45EB00A31ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16501BFB45EB00A31ECA /* main.m */; };
 		52BE16541BFB45EB00A31ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16531BFB45EB00A31ECA /* AppDelegate.m */; };
@@ -90,6 +108,39 @@
 /* Begin PBXFileReference section */
 		3EA06391897B99F44B5DE926 /* libPods-V-TellerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-V-TellerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4265855E495B952A0D411A7C /* Pods-V-TellerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V-TellerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-V-TellerUITests/Pods-V-TellerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		521E87AD1BFF49220064E39E /* VTellerWatchUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTellerWatchUtil.h; sourceTree = "<group>"; };
+		521E87AE1BFF49220064E39E /* VTellerWatchUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTellerWatchUtil.m; sourceTree = "<group>"; };
+		521E87B01BFF4C9B0064E39E /* CurrentLocationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentLocationProvider.h; sourceTree = "<group>"; };
+		521E87B11BFF4C9B0064E39E /* CurrentLocationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentLocationProvider.m; sourceTree = "<group>"; };
+		521E87B41BFF4F720064E39E /* HEREPlacesDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEREPlacesDataProvider.h; sourceTree = "<group>"; };
+		521E87B51BFF4F720064E39E /* HEREPlacesDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEREPlacesDataProvider.m; sourceTree = "<group>"; };
+		521E87B61BFF4F720064E39E /* HERERoutesDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HERERoutesDataProvider.h; sourceTree = "<group>"; };
+		521E87B71BFF4F720064E39E /* HERERoutesDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HERERoutesDataProvider.m; sourceTree = "<group>"; };
+		521E87B91BFF4F720064E39E /* BoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundingBox.h; sourceTree = "<group>"; };
+		521E87BA1BFF4F720064E39E /* BoundingBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoundingBox.m; sourceTree = "<group>"; };
+		521E87BB1BFF4F720064E39E /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		521E87BC1BFF4F720064E39E /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		521E87BD1BFF4F720064E39E /* RouteInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteInfo.h; sourceTree = "<group>"; };
+		521E87BE1BFF4F720064E39E /* RouteInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteInfo.m; sourceTree = "<group>"; };
+		521E87BF1BFF4F720064E39E /* RouteLeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteLeg.h; sourceTree = "<group>"; };
+		521E87C01BFF4F720064E39E /* RouteLeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteLeg.m; sourceTree = "<group>"; };
+		521E87C11BFF4F720064E39E /* RouteSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteSummary.h; sourceTree = "<group>"; };
+		521E87C21BFF4F720064E39E /* RouteSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteSummary.m; sourceTree = "<group>"; };
+		521E87C31BFF4F720064E39E /* StepInLeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepInLeg.h; sourceTree = "<group>"; };
+		521E87C41BFF4F720064E39E /* StepInLeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepInLeg.m; sourceTree = "<group>"; };
+		521E87CE1BFF52390064E39E /* NSDictionary+HEREParseError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HEREParseError.h"; sourceTree = "<group>"; };
+		521E87CF1BFF52390064E39E /* NSDictionary+HEREParseError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HEREParseError.m"; sourceTree = "<group>"; };
+		521E87D01BFF52390064E39E /* NSDictionary+HEREPlacesDictionaryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HEREPlacesDictionaryHelper.h"; sourceTree = "<group>"; };
+		521E87D11BFF52390064E39E /* NSDictionary+HEREPlacesDictionaryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HEREPlacesDictionaryHelper.m"; sourceTree = "<group>"; };
+		521E87D21BFF52390064E39E /* NSDictionary+HERERoutesDictionaryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HERERoutesDictionaryHelper.h"; sourceTree = "<group>"; };
+		521E87D31BFF52390064E39E /* NSDictionary+HERERoutesDictionaryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HERERoutesDictionaryHelper.m"; sourceTree = "<group>"; };
+		521E87D71BFF5BD60064E39E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		521E87D91BFF5BEF0064E39E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		521E87DB1BFF7AAE0064E39E /* MapInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapInterfaceController.h; sourceTree = "<group>"; };
+		521E87DC1BFF7AAE0064E39E /* MapInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapInterfaceController.m; sourceTree = "<group>"; };
+		521E87DE1BFF99450064E39E /* RootMapViewVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootMapViewVCViewController.h; sourceTree = "<group>"; };
+		521E87DF1BFF99450064E39E /* RootMapViewVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootMapViewVCViewController.m; sourceTree = "<group>"; };
+		521E87E01BFF99450064E39E /* RootMapViewVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootMapViewVCViewController.xib; sourceTree = "<group>"; };
 		52B2559B1BFB599A00F422A1 /* Watch V-Teller Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch V-Teller Extension.entitlements"; sourceTree = "<group>"; };
 		52B2559C1BFB59D900F422A1 /* Watch V-Teller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch V-Teller.entitlements"; sourceTree = "<group>"; };
 		52B2559D1BFB59EC00F422A1 /* V-Teller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "V-Teller.entitlements"; sourceTree = "<group>"; };
@@ -144,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B2559F1BFB5E1800F422A1 /* AVFoundation.framework in Frameworks */,
+				521E87DA1BFF5BEF0064E39E /* MapKit.framework in Frameworks */,
 				EA3A36151CB63100914C696B /* libPods-V-Teller.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521E87D81BFF5BD60064E39E /* MapKit.framework in Frameworks */,
 				BB8E6FCA3F7CCC749ADBB8F3 /* libPods-Watch V-Teller Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +228,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521E87B31BFF4F720064E39E /* BranchAtmDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				521E87B41BFF4F720064E39E /* HEREPlacesDataProvider.h */,
+				521E87B51BFF4F720064E39E /* HEREPlacesDataProvider.m */,
+				521E87B61BFF4F720064E39E /* HERERoutesDataProvider.h */,
+				521E87B71BFF4F720064E39E /* HERERoutesDataProvider.m */,
+				521E87B81BFF4F720064E39E /* Model */,
+				521E87CD1BFF52390064E39E /* Parse */,
+			);
+			name = BranchAtmDataManager;
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		521E87B81BFF4F720064E39E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				521E87B91BFF4F720064E39E /* BoundingBox.h */,
+				521E87BA1BFF4F720064E39E /* BoundingBox.m */,
+				521E87BB1BFF4F720064E39E /* Place.h */,
+				521E87BC1BFF4F720064E39E /* Place.m */,
+				521E87BD1BFF4F720064E39E /* RouteInfo.h */,
+				521E87BE1BFF4F720064E39E /* RouteInfo.m */,
+				521E87BF1BFF4F720064E39E /* RouteLeg.h */,
+				521E87C01BFF4F720064E39E /* RouteLeg.m */,
+				521E87C11BFF4F720064E39E /* RouteSummary.h */,
+				521E87C21BFF4F720064E39E /* RouteSummary.m */,
+				521E87C31BFF4F720064E39E /* StepInLeg.h */,
+				521E87C41BFF4F720064E39E /* StepInLeg.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		521E87CD1BFF52390064E39E /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				521E87CE1BFF52390064E39E /* NSDictionary+HEREParseError.h */,
+				521E87CF1BFF52390064E39E /* NSDictionary+HEREParseError.m */,
+				521E87D01BFF52390064E39E /* NSDictionary+HEREPlacesDictionaryHelper.h */,
+				521E87D11BFF52390064E39E /* NSDictionary+HEREPlacesDictionaryHelper.m */,
+				521E87D21BFF52390064E39E /* NSDictionary+HERERoutesDictionaryHelper.h */,
+				521E87D31BFF52390064E39E /* NSDictionary+HERERoutesDictionaryHelper.m */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
 		52BE16431BFB45EB00A31ECA = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +314,9 @@
 				52BE16631BFB45EB00A31ECA /* Info.plist */,
 				52BE165B1BFB45EB00A31ECA /* V_Teller.xcdatamodeld */,
 				52BE164F1BFB45EB00A31ECA /* Supporting Files */,
+				521E87DE1BFF99450064E39E /* RootMapViewVCViewController.h */,
+				521E87DF1BFF99450064E39E /* RootMapViewVCViewController.m */,
+				521E87E01BFF99450064E39E /* RootMapViewVCViewController.xib */,
 			);
 			path = "V-Teller";
 			sourceTree = "<group>";
@@ -259,6 +361,9 @@
 		52BE16971BFB479700A31ECA /* Watch V-Teller Extension */ = {
 			isa = PBXGroup;
 			children = (
+				521E87B31BFF4F720064E39E /* BranchAtmDataManager */,
+				521E87B01BFF4C9B0064E39E /* CurrentLocationProvider.h */,
+				521E87B11BFF4C9B0064E39E /* CurrentLocationProvider.m */,
 				52B2559B1BFB599A00F422A1 /* Watch V-Teller Extension.entitlements */,
 				52BE169A1BFB479700A31ECA /* InterfaceController.h */,
 				52BE169B1BFB479700A31ECA /* InterfaceController.m */,
@@ -270,6 +375,10 @@
 				52BE16A31BFB479700A31ECA /* Assets.xcassets */,
 				52BE16A51BFB479700A31ECA /* Info.plist */,
 				52BE16981BFB479700A31ECA /* Supporting Files */,
+				521E87AD1BFF49220064E39E /* VTellerWatchUtil.h */,
+				521E87AE1BFF49220064E39E /* VTellerWatchUtil.m */,
+				521E87DB1BFF7AAE0064E39E /* MapInterfaceController.h */,
+				521E87DC1BFF7AAE0064E39E /* MapInterfaceController.m */,
 			);
 			path = "Watch V-Teller Extension";
 			sourceTree = "<group>";
@@ -285,6 +394,8 @@
 		5F6123707E7E274199ABBC99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				521E87D91BFF5BEF0064E39E /* MapKit.framework */,
+				521E87D71BFF5BD60064E39E /* MapKit.framework */,
 				52B2559E1BFB5E1800F422A1 /* AVFoundation.framework */,
 				C3907854A52C759DF599C2EA /* libPods-V-Teller.a */,
 				BEC730C839A84F096FE6FD56 /* libPods-V-TellerTests.a */,
@@ -428,6 +539,12 @@
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
 							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
 						};
 					};
 					52BE16671BFB45EB00A31ECA = {
@@ -452,6 +569,9 @@
 						DevelopmentTeam = VD4986N57V;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
 						};
@@ -486,6 +606,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BE16621BFB45EB00A31ECA /* LaunchScreen.storyboard in Resources */,
+				521E87E21BFF99450064E39E /* RootMapViewVCViewController.xib in Resources */,
 				52BE165F1BFB45EB00A31ECA /* Assets.xcassets in Resources */,
 				52BE165A1BFB45EB00A31ECA /* Main.storyboard in Resources */,
 			);
@@ -701,6 +822,7 @@
 				52BE16541BFB45EB00A31ECA /* AppDelegate.m in Sources */,
 				52BE165D1BFB45EB00A31ECA /* V_Teller.xcdatamodeld in Sources */,
 				52BE16511BFB45EB00A31ECA /* main.m in Sources */,
+				521E87E11BFF99450064E39E /* RootMapViewVCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,9 +846,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521E87CC1BFF4F720064E39E /* StepInLeg.m in Sources */,
+				521E87D41BFF52390064E39E /* NSDictionary+HEREParseError.m in Sources */,
+				521E87D61BFF52390064E39E /* NSDictionary+HERERoutesDictionaryHelper.m in Sources */,
+				521E87D51BFF52390064E39E /* NSDictionary+HEREPlacesDictionaryHelper.m in Sources */,
+				521E87AF1BFF49220064E39E /* VTellerWatchUtil.m in Sources */,
+				521E87B21BFF4C9B0064E39E /* CurrentLocationProvider.m in Sources */,
+				521E87C61BFF4F720064E39E /* HERERoutesDataProvider.m in Sources */,
 				52BE169F1BFB479700A31ECA /* ExtensionDelegate.m in Sources */,
 				52BE169C1BFB479700A31ECA /* InterfaceController.m in Sources */,
+				521E87C91BFF4F720064E39E /* RouteInfo.m in Sources */,
+				521E87C51BFF4F720064E39E /* HEREPlacesDataProvider.m in Sources */,
+				521E87C81BFF4F720064E39E /* Place.m in Sources */,
+				521E87CA1BFF4F720064E39E /* RouteLeg.m in Sources */,
 				52BE16A21BFB479700A31ECA /* NotificationController.m in Sources */,
+				521E87CB1BFF4F720064E39E /* RouteSummary.m in Sources */,
+				521E87DD1BFF7AAE0064E39E /* MapInterfaceController.m in Sources */,
+				521E87C71BFF4F720064E39E /* BoundingBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -954,6 +1090,12 @@
 				CODE_SIGN_ENTITLEMENTS = "Watch V-Teller Extension/Watch V-Teller Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Watch",
+					"V-Teller",
+					Extension,
+				);
 				INFOPLIST_FILE = "Watch V-Teller Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-Teller.watchkitapp.watchkitextension";
@@ -973,6 +1115,12 @@
 				CODE_SIGN_ENTITLEMENTS = "Watch V-Teller Extension/Watch V-Teller Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Watch",
+					"V-Teller",
+					Extension,
+				);
 				INFOPLIST_FILE = "Watch V-Teller Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NLP.Bank.V-Teller.watchkitapp.watchkitextension";

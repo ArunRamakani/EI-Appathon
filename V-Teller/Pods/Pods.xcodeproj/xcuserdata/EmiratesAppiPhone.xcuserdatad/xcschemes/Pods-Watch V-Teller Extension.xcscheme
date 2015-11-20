@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '13D9CC927F67D78B140E7FE6'
+               BlueprintIdentifier = 'F0077D54CFB7B173E48A8D31'
                BlueprintName = 'Pods-Watch V-Teller Extension'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-Watch V-Teller Extension.a'>

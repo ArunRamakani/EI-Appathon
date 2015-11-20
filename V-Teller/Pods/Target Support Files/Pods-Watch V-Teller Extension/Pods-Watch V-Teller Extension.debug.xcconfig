@@ -1,5 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ApiAI"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ApiAI"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-Watch V-Teller Extension-ApiAI"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/ApiAI"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/ApiAI"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-Watch V-Teller Extension-AFNetworking" -l"Pods-Watch V-Teller Extension-ApiAI" -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security"
 PODS_ROOT = ${SRCROOT}/Pods

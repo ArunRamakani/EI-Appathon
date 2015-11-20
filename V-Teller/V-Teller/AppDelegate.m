@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RootMapViewVCViewController.h"
 
 @interface AppDelegate ()
 
@@ -123,5 +124,26 @@
         }
     }
 }
+
+
+
+-(BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *))restorationHandler
+{
+    BOOL handled = NO;
+    
+    // Extract the payload
+    NSString *type = [userActivity activityType];
+    NSDictionary *userInfo = [userActivity userInfo];
+    
+    // Assume the app delegate has a text field to display the activity information
+    NSLog(@"User activity is of type %@, and user info %@", type, userInfo);
+    
+    
+    restorationHandler(@[self.window.rootViewController]);
+    
+    handled = YES;
+    return handled;
+}
+
 
 @end
