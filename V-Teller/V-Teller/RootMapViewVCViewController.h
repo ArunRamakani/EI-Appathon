@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HERERoutesDataProvider.h"
+#import <MapKit/MapKit.h>
 
-@interface RootMapViewVCViewController : UIViewController
+@interface RootMapViewVCViewController : UIViewController <HERERouteDataProviderDelegate>
 
 @property (nonatomic, strong) NSArray *places;
+@property (weak, nonatomic) IBOutlet MKMapView    *mapView;
+@property (weak, nonatomic) IBOutlet UITableView  *routeInstructions;
+@property (weak, nonatomic) IBOutlet UITabBar *tabBar;
+
 
 @end

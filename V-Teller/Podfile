@@ -6,7 +6,7 @@ target 'V-Teller' do
     pod 'ApiAI/AudioFileConverter'
     pod 'ApiAI/VoiceFileRequest'
     pod 'AFNetworking'
-    pod 'MBProgressHUD'
+    pod 'MRProgress'
     
 end
 

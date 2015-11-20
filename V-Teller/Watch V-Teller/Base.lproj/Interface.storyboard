@@ -58,8 +58,8 @@
             <objects>
                 <controller identifier="MapController" id="afH-3I-XfH" customClass="MapInterfaceController">
                     <items>
-                        <map height="100" alignment="left" id="itU-hf-doZ"/>
-                        <button width="1" alignment="left" title="View Route in iPhone" id="CUp-qC-bSD">
+                        <map height="125" alignment="left" id="itU-hf-doZ"/>
+                        <button width="1" height="35.5" alignment="left" title="View in iPhone" id="CUp-qC-bSD">
                             <color key="titleColor" red="1" green="0.37530393569999998" blue="0.42312568859999999" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="system" pointSize="17"/>
@@ -73,7 +73,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="459" y="26"/>
+            <point key="canvasLocation" x="459" y="32.75"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="jhc-mk-Q3S">

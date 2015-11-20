@@ -13,6 +13,7 @@
 @interface MapInterfaceController ()
 
 @property (nonatomic, strong) NSArray *array;
+@property (nonatomic, strong) NSString *stringPlaces;
 
 @end
 
@@ -31,6 +32,8 @@
     [super willActivate];
     [_map removeAllAnnotations];
     
+    _stringPlaces = @"";
+    
     if ([_array count] > 1) {
         
         BoundingBox *box = [[BoundingBox alloc] init];
@@ -44,6 +47,8 @@
         // Loop for all places lat long to calculate box values from min max
         for(Place *place in _array) {
             
+            _stringPlaces = [NSString stringWithFormat:@"%@~%f:%f",_stringPlaces,place.latitude, place.latitude];
+                             
             CLLocationCoordinate2D location;
             location.latitude = place.latitude;
             location.longitude =  place.longitude;
@@ -79,7 +84,10 @@
 }
 
 -(IBAction)handOff:(id)sender {
-    [self updateUserActivity:@"com.NLP.Bank.V-Teller.MapRoute" userInfo:@{@"places": @""} webpageURL:nil];
+    
+    NSData *dataOnObject = [NSKeyedArchiver archivedDataWithRootObject:_array];
+    
+    [self updateUserActivity:@"com.NLP.Bank.V-Teller.MapRoute" userInfo:@{@"places": dataOnObject} webpageURL:nil];
 }
 
 @end

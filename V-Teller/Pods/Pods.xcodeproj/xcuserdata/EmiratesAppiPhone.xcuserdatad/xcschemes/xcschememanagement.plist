@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MBProgressHUD.xcscheme</key>
+		<key>MRProgress.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,7 +47,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4C6B01E9E082ACC63C6E82BFA410692F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5D3B89D59A037A3303B25A862F162FD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8570A42CA7975311B4D2DDCB2303977B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,22 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6E8CAB2F51F534B251D4D02610C880B</key>
+		<key>A713BB7D66D3D8E08D63C77AB68D197A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D62A3FACBF70B40E9FB1E760F7F4B89D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FB93A719EAC68C850B23B6B6D045EB73</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
+		<key>F501298B98D5D78F23311332D5ABD9A9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -25,6 +25,23 @@
 		521E87DD1BFF7AAE0064E39E /* MapInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87DC1BFF7AAE0064E39E /* MapInterfaceController.m */; };
 		521E87E11BFF99450064E39E /* RootMapViewVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87DF1BFF99450064E39E /* RootMapViewVCViewController.m */; };
 		521E87E21BFF99450064E39E /* RootMapViewVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521E87E01BFF99450064E39E /* RootMapViewVCViewController.xib */; };
+		521E87E31BFFB4740064E39E /* HERERoutesDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87B71BFF4F720064E39E /* HERERoutesDataProvider.m */; };
+		521E87E51BFFB4940064E39E /* HEREPlacesDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87B51BFF4F720064E39E /* HEREPlacesDataProvider.m */; };
+		521E87E61BFFB4A50064E39E /* BoundingBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87BA1BFF4F720064E39E /* BoundingBox.m */; };
+		521E87E71BFFB4AA0064E39E /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87BC1BFF4F720064E39E /* Place.m */; };
+		521E87E81BFFB4AF0064E39E /* RouteInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87BE1BFF4F720064E39E /* RouteInfo.m */; };
+		521E87E91BFFB4B50064E39E /* RouteLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87C01BFF4F720064E39E /* RouteLeg.m */; };
+		521E87EA1BFFB4BB0064E39E /* RouteSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87C21BFF4F720064E39E /* RouteSummary.m */; };
+		521E87EB1BFFB4BF0064E39E /* StepInLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87C41BFF4F720064E39E /* StepInLeg.m */; };
+		521E87EC1BFFB4C40064E39E /* NSDictionary+HEREParseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87CF1BFF52390064E39E /* NSDictionary+HEREParseError.m */; };
+		521E87ED1BFFB4C80064E39E /* NSDictionary+HEREPlacesDictionaryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87D11BFF52390064E39E /* NSDictionary+HEREPlacesDictionaryHelper.m */; };
+		521E87EE1BFFB4CC0064E39E /* NSDictionary+HERERoutesDictionaryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87D31BFF52390064E39E /* NSDictionary+HERERoutesDictionaryHelper.m */; };
+		521E87EF1BFFB5280064E39E /* CurrentLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87B11BFF4C9B0064E39E /* CurrentLocationProvider.m */; };
+		521E87F21BFFBE420064E39E /* RouteMapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F11BFFBE420064E39E /* RouteMapUtil.m */; };
+		521E87F71BFFBE6D0064E39E /* RouteLegBreakPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F41BFFBE6D0064E39E /* RouteLegBreakPointView.m */; };
+		521E87F81BFFBE6D0064E39E /* RouteLegLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F61BFFBE6D0064E39E /* RouteLegLine.m */; };
+		521E87FC1BFFC2A80064E39E /* RouteInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87FA1BFFC2A80064E39E /* RouteInformationView.m */; };
+		521E87FD1BFFC2A80064E39E /* RouteInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521E87FB1BFFC2A80064E39E /* RouteInformationView.xib */; };
 		52B2559F1BFB5E1800F422A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2559E1BFB5E1800F422A1 /* AVFoundation.framework */; };
 		52BE16511BFB45EB00A31ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16501BFB45EB00A31ECA /* main.m */; };
 		52BE16541BFB45EB00A31ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16531BFB45EB00A31ECA /* AppDelegate.m */; };
@@ -141,6 +158,15 @@
 		521E87DE1BFF99450064E39E /* RootMapViewVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootMapViewVCViewController.h; sourceTree = "<group>"; };
 		521E87DF1BFF99450064E39E /* RootMapViewVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootMapViewVCViewController.m; sourceTree = "<group>"; };
 		521E87E01BFF99450064E39E /* RootMapViewVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootMapViewVCViewController.xib; sourceTree = "<group>"; };
+		521E87F01BFFBE420064E39E /* RouteMapUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteMapUtil.h; sourceTree = "<group>"; };
+		521E87F11BFFBE420064E39E /* RouteMapUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteMapUtil.m; sourceTree = "<group>"; };
+		521E87F31BFFBE6D0064E39E /* RouteLegBreakPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteLegBreakPointView.h; sourceTree = "<group>"; };
+		521E87F41BFFBE6D0064E39E /* RouteLegBreakPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteLegBreakPointView.m; sourceTree = "<group>"; };
+		521E87F51BFFBE6D0064E39E /* RouteLegLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteLegLine.h; sourceTree = "<group>"; };
+		521E87F61BFFBE6D0064E39E /* RouteLegLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteLegLine.m; sourceTree = "<group>"; };
+		521E87F91BFFC2A80064E39E /* RouteInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteInformationView.h; sourceTree = "<group>"; };
+		521E87FA1BFFC2A80064E39E /* RouteInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteInformationView.m; sourceTree = "<group>"; };
+		521E87FB1BFFC2A80064E39E /* RouteInformationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteInformationView.xib; sourceTree = "<group>"; };
 		52B2559B1BFB599A00F422A1 /* Watch V-Teller Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch V-Teller Extension.entitlements"; sourceTree = "<group>"; };
 		52B2559C1BFB59D900F422A1 /* Watch V-Teller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch V-Teller.entitlements"; sourceTree = "<group>"; };
 		52B2559D1BFB59EC00F422A1 /* V-Teller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "V-Teller.entitlements"; sourceTree = "<group>"; };
@@ -317,6 +343,15 @@
 				521E87DE1BFF99450064E39E /* RootMapViewVCViewController.h */,
 				521E87DF1BFF99450064E39E /* RootMapViewVCViewController.m */,
 				521E87E01BFF99450064E39E /* RootMapViewVCViewController.xib */,
+				521E87F91BFFC2A80064E39E /* RouteInformationView.h */,
+				521E87FA1BFFC2A80064E39E /* RouteInformationView.m */,
+				521E87FB1BFFC2A80064E39E /* RouteInformationView.xib */,
+				521E87F01BFFBE420064E39E /* RouteMapUtil.h */,
+				521E87F11BFFBE420064E39E /* RouteMapUtil.m */,
+				521E87F31BFFBE6D0064E39E /* RouteLegBreakPointView.h */,
+				521E87F41BFFBE6D0064E39E /* RouteLegBreakPointView.m */,
+				521E87F51BFFBE6D0064E39E /* RouteLegLine.h */,
+				521E87F61BFFBE6D0064E39E /* RouteLegLine.m */,
 			);
 			path = "V-Teller";
 			sourceTree = "<group>";
@@ -607,6 +642,7 @@
 			files = (
 				52BE16621BFB45EB00A31ECA /* LaunchScreen.storyboard in Resources */,
 				521E87E21BFF99450064E39E /* RootMapViewVCViewController.xib in Resources */,
+				521E87FD1BFFC2A80064E39E /* RouteInformationView.xib in Resources */,
 				52BE165F1BFB45EB00A31ECA /* Assets.xcassets in Resources */,
 				52BE165A1BFB45EB00A31ECA /* Main.storyboard in Resources */,
 			);
@@ -818,11 +854,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521E87EB1BFFB4BF0064E39E /* StepInLeg.m in Sources */,
+				521E87EC1BFFB4C40064E39E /* NSDictionary+HEREParseError.m in Sources */,
+				521E87EE1BFFB4CC0064E39E /* NSDictionary+HERERoutesDictionaryHelper.m in Sources */,
+				521E87F71BFFBE6D0064E39E /* RouteLegBreakPointView.m in Sources */,
+				521E87F81BFFBE6D0064E39E /* RouteLegLine.m in Sources */,
+				521E87ED1BFFB4C80064E39E /* NSDictionary+HEREPlacesDictionaryHelper.m in Sources */,
 				52BE16571BFB45EB00A31ECA /* ViewController.m in Sources */,
+				521E87E51BFFB4940064E39E /* HEREPlacesDataProvider.m in Sources */,
+				521E87EF1BFFB5280064E39E /* CurrentLocationProvider.m in Sources */,
 				52BE16541BFB45EB00A31ECA /* AppDelegate.m in Sources */,
+				521E87E31BFFB4740064E39E /* HERERoutesDataProvider.m in Sources */,
 				52BE165D1BFB45EB00A31ECA /* V_Teller.xcdatamodeld in Sources */,
+				521E87E81BFFB4AF0064E39E /* RouteInfo.m in Sources */,
 				52BE16511BFB45EB00A31ECA /* main.m in Sources */,
+				521E87E71BFFB4AA0064E39E /* Place.m in Sources */,
+				521E87E91BFFB4B50064E39E /* RouteLeg.m in Sources */,
 				521E87E11BFF99450064E39E /* RootMapViewVCViewController.m in Sources */,
+				521E87EA1BFFB4BB0064E39E /* RouteSummary.m in Sources */,
+				521E87F21BFFBE420064E39E /* RouteMapUtil.m in Sources */,
+				521E87E61BFFB4A50064E39E /* BoundingBox.m in Sources */,
+				521E87FC1BFFC2A80064E39E /* RouteInformationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

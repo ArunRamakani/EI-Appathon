@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F4CE5E8D936BFDFF587BED0C'
+               BlueprintIdentifier = '59F47851CC024BA41A7BEE6A'
                BlueprintName = 'Pods-V-Teller-ApiAI'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-V-Teller-ApiAI.a'>
