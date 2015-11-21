@@ -40,6 +40,7 @@
 		521E87F21BFFBE420064E39E /* RouteMapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F11BFFBE420064E39E /* RouteMapUtil.m */; };
 		521E87F71BFFBE6D0064E39E /* RouteLegBreakPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F41BFFBE6D0064E39E /* RouteLegBreakPointView.m */; };
 		521E87F81BFFBE6D0064E39E /* RouteLegLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F61BFFBE6D0064E39E /* RouteLegLine.m */; };
+		527326571C008C160099DBEF /* OfferView.m in Sources */ = {isa = PBXBuildFile; fileRef = 527326561C008C160099DBEF /* OfferView.m */; };
 		52B2559F1BFB5E1800F422A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2559E1BFB5E1800F422A1 /* AVFoundation.framework */; };
 		52BE16511BFB45EB00A31ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16501BFB45EB00A31ECA /* main.m */; };
 		52BE16541BFB45EB00A31ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16531BFB45EB00A31ECA /* AppDelegate.m */; };
@@ -162,6 +163,8 @@
 		521E87F41BFFBE6D0064E39E /* RouteLegBreakPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteLegBreakPointView.m; sourceTree = "<group>"; };
 		521E87F51BFFBE6D0064E39E /* RouteLegLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteLegLine.h; sourceTree = "<group>"; };
 		521E87F61BFFBE6D0064E39E /* RouteLegLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteLegLine.m; sourceTree = "<group>"; };
+		527326551C008C160099DBEF /* OfferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferView.h; sourceTree = "<group>"; };
+		527326561C008C160099DBEF /* OfferView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferView.m; sourceTree = "<group>"; };
 		52B2559B1BFB599A00F422A1 /* Watch V-Teller Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch V-Teller Extension.entitlements"; sourceTree = "<group>"; };
 		52B2559C1BFB59D900F422A1 /* Watch V-Teller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch V-Teller.entitlements"; sourceTree = "<group>"; };
 		52B2559D1BFB59EC00F422A1 /* V-Teller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "V-Teller.entitlements"; sourceTree = "<group>"; };
@@ -406,6 +409,8 @@
 				521E87AE1BFF49220064E39E /* VTellerWatchUtil.m */,
 				521E87DB1BFF7AAE0064E39E /* MapInterfaceController.h */,
 				521E87DC1BFF7AAE0064E39E /* MapInterfaceController.m */,
+				527326551C008C160099DBEF /* OfferView.h */,
+				527326561C008C160099DBEF /* OfferView.m */,
 			);
 			path = "Watch V-Teller Extension";
 			sourceTree = "<group>";
@@ -891,6 +896,7 @@
 				521E87CC1BFF4F720064E39E /* StepInLeg.m in Sources */,
 				521E87D41BFF52390064E39E /* NSDictionary+HEREParseError.m in Sources */,
 				521E87D61BFF52390064E39E /* NSDictionary+HERERoutesDictionaryHelper.m in Sources */,
+				527326571C008C160099DBEF /* OfferView.m in Sources */,
 				521E87D51BFF52390064E39E /* NSDictionary+HEREPlacesDictionaryHelper.m in Sources */,
 				521E87AF1BFF49220064E39E /* VTellerWatchUtil.m in Sources */,
 				521E87B21BFF4C9B0064E39E /* CurrentLocationProvider.m in Sources */,

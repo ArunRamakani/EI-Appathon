@@ -75,22 +75,34 @@
             </objects>
             <point key="canvasLocation" x="459" y="32.75"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Offer-->
         <scene sceneID="jhc-mk-Q3S">
             <objects>
-                <controller id="8nn-8F-8ql">
+                <controller identifier="FoodOffer" title="Offer" id="8nn-8F-8ql" userLabel="Offer" customClass="OfferView">
                     <items>
                         <table alignment="left" id="pzR-Pa-HSe">
                             <items>
                                 <tableRow id="flP-2J-jow">
-                                    <group key="rootItem" width="1" alignment="left" id="Nbd-fn-V3g"/>
+                                    <group key="rootItem" width="1" height="170" alignment="left" layout="vertical" id="Nbd-fn-V3g">
+                                        <items>
+                                            <separator alignment="center" verticalAlignment="bottom" id="n4A-wy-M3Q"/>
+                                            <group width="1" height="163" alignment="left" layout="vertical" id="5tB-Ic-PkU">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="Label" numberOfLines="2" id="5wi-zG-e9T" userLabel="Offer Name"/>
+                                                    <group width="1" height="77" alignment="left" layout="vertical" id="7Ac-bO-iek"/>
+                                                    <imageView height="23" alignment="left" verticalAlignment="bottom" id="xUA-e4-H85"/>
+                                                    <label alignment="left" text="Label" id="cPn-lN-33c"/>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="459" y="301"/>
+            <point key="canvasLocation" x="420" y="300.5"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

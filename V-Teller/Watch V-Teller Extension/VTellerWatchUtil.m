@@ -28,7 +28,7 @@
         
         [[HEREPlacesDataProvider sharedInstance] searchForPlaceWithString:@"emirates islamic atm"];
         
-    }
+    } 
 }
 
 
@@ -39,7 +39,7 @@
     if ([placesList count] > 0) {
         
         [[NSNotificationCenter defaultCenter] postNotificationName:@"PublishNearestAtmBranch" object:placesList];
-        //[[HERERoutesDataProvider sharedInstance] getRouteFromPlaces:placesList];
+
     }
     
     
@@ -48,7 +48,6 @@
 // handle failure search
 -(void) didSearchFailWithError:(NSString *) errorMessage{
     
-   
     
 }
 

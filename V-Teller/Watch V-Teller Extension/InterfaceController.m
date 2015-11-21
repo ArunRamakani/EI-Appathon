@@ -16,7 +16,8 @@
 @property (nonatomic, strong) dispatch_semaphore_t assertionSemaphore;
 @property (nonatomic, strong) NSArray *validIntractions;
 @property (nonatomic, strong) VTellerWatchUtil *util;
-
+@property (nonatomic, strong) NSString *fulfilmentRes;
+@property (nonatomic, assign) BOOL activityInprogress;
 @end
 
 @implementation InterfaceController
@@ -25,16 +26,28 @@
     [super awakeWithContext:context];
 
     [_pleaseWaitAnimation setImageNamed:@"frame"];
-    _validIntractions = [NSArray arrayWithObjects:@"ATM", @"Branch", @"Offers", @"Balance", nil];
+    _validIntractions = [NSArray arrayWithObjects:@"ATM", @"FOOD", @"BALANCE", nil];
     _util = [[VTellerWatchUtil alloc] init];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loadNearestAtmBranch:) name:@"PublishNearestAtmBranch" object:nil];
+    
+    _activityInprogress = FALSE;
     
 }
 
 - (void) willActivate {
     // This method is called when watch view controller is about to be visible to user
     [super willActivate];
-    [_pleaseWaitAnimation startAnimating];
+    
+    if(_activityInprogress) {
+        [_progressGroup setHidden:FALSE];
+        [_recordGroup setHidden:TRUE];
+        [_pleaseWaitAnimation startAnimating];
+    } else {
+        [_pleaseWaitAnimation stopAnimating];
+        [_progressGroup setHidden:TRUE];
+        [_recordGroup setHidden:FALSE];
+    }
+    
 }
 
 -(IBAction) recordSound:(id)sender {
@@ -55,32 +68,36 @@
       
       if(didSave && !error) {
           
-          [self showProgress];
-          
           ApiAI *apiai = [ApiAI sharedApiAI];
           
           AIVoiceFileRequest *request = [apiai voiceFileRequestWithFileURL:fileUrl];
           
           [request setMappedCompletionBlockSuccess:^(AIRequest *request, AIResponse *response) {
   
-              NSString *text = response.result.fulfillment.speech;
+              NSString *intent = response.result.metadata.intentName;
+              _fulfilmentRes = response.result.fulfillment.speech;
               
-              if ([text length] && [self isValidIntraction:text]) {
-                 NSLog(@"Text : %@", text);
-                  [_util fetchDataForIntractionType:text];
+              if ([intent length] && [self isValidIntraction:intent]) {
+                 NSLog(@"Text : %@", intent);
+                  
+                  if([intent isEqualToString:@"FOOD"]) {
+                      [self handleFoodOffer];
+                  } else if([intent isEqualToString:@"BALANCE"]) {
+                      [self handleBalance];
+                  } else {
+                      [_util fetchDataForIntractionType:intent];
+                  }
               } else {
                   WKAlertAction *act = [WKAlertAction actionWithTitle:@"OK" style:WKAlertActionStyleCancel handler:^(void){
                      [self dismissProgress];
                   }];
                   [self presentAlertControllerWithTitle:@"Error" message:@"We are not able to recogonize" preferredStyle:WKAlertControllerStyleAlert actions:[NSArray arrayWithObjects:act,nil]];
               }
-              
-              
-        
           } failure:^(AIRequest *request, NSError *error) {
               NSLog(@"Error : %@", error.localizedDescription);
           }];
           [apiai enqueue:request];
+          [self showProgress];
       }
       
   }];
@@ -90,18 +107,23 @@
 - (void)didDeactivate {
     // This method is called when watch view controller is no longer visible
     [super didDeactivate];
-    [_pleaseWaitAnimation stopAnimating];
 }
 
 
 
 -(void) showProgress {
-    [_progressGroup setHidden:FALSE];
-    [_recordGroup setHidden:TRUE];
+    
+    _activityInprogress = TRUE;
     _assertionSemaphore = nil;
     _assertionSemaphore = dispatch_semaphore_create(0);
-    
     [self requestAssertionWithSmaphore];
+    
+    [_progressGroup setHidden:FALSE];
+    [_recordGroup setHidden:TRUE];
+    [_pleaseWaitAnimation startAnimating];
+    
+    
+    
 }
 
 
@@ -134,9 +156,18 @@
 
 
 -(void) dismissProgress {
-    [_progressGroup setHidden:TRUE];
-    [_recordGroup setHidden:FALSE];
+    _activityInprogress = FALSE;
     [self releaseAssertionSmaphore];
+    
+    if([NSThread isMainThread]) {
+        
+        [_pleaseWaitAnimation stopAnimating];
+        [_progressGroup setHidden:TRUE];
+        [_recordGroup setHidden:FALSE];
+        
+    }
+    
+    
     //[[WKInterfaceDevice currentDevice] playHaptic:WKHapticTypeSuccess];
 }
 
@@ -158,6 +189,20 @@
     [self pushControllerWithName:@"MapController" context:arr];
     
 }
+
+
+- (void) handleFoodOffer {
+    [self dismissProgress];
+    [self pushControllerWithName:@"FoodOffer" context:_fulfilmentRes];
+}
+
+- (void) handleBalance {
+    WKAlertAction *act = [WKAlertAction actionWithTitle:@"OK" style:WKAlertActionStyleCancel handler:^(void){
+        [self dismissProgress];
+    }];
+    [self presentAlertControllerWithTitle:@"Account Balance" message:_fulfilmentRes preferredStyle:WKAlertControllerStyleAlert actions:[NSArray arrayWithObjects:act,nil]];
+}
+
 @end
 
 
