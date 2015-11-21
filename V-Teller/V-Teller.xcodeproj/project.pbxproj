@@ -40,8 +40,6 @@
 		521E87F21BFFBE420064E39E /* RouteMapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F11BFFBE420064E39E /* RouteMapUtil.m */; };
 		521E87F71BFFBE6D0064E39E /* RouteLegBreakPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F41BFFBE6D0064E39E /* RouteLegBreakPointView.m */; };
 		521E87F81BFFBE6D0064E39E /* RouteLegLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F61BFFBE6D0064E39E /* RouteLegLine.m */; };
-		521E87FC1BFFC2A80064E39E /* RouteInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87FA1BFFC2A80064E39E /* RouteInformationView.m */; };
-		521E87FD1BFFC2A80064E39E /* RouteInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521E87FB1BFFC2A80064E39E /* RouteInformationView.xib */; };
 		52B2559F1BFB5E1800F422A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2559E1BFB5E1800F422A1 /* AVFoundation.framework */; };
 		52BE16511BFB45EB00A31ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16501BFB45EB00A31ECA /* main.m */; };
 		52BE16541BFB45EB00A31ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16531BFB45EB00A31ECA /* AppDelegate.m */; };
@@ -164,9 +162,6 @@
 		521E87F41BFFBE6D0064E39E /* RouteLegBreakPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteLegBreakPointView.m; sourceTree = "<group>"; };
 		521E87F51BFFBE6D0064E39E /* RouteLegLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteLegLine.h; sourceTree = "<group>"; };
 		521E87F61BFFBE6D0064E39E /* RouteLegLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteLegLine.m; sourceTree = "<group>"; };
-		521E87F91BFFC2A80064E39E /* RouteInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteInformationView.h; sourceTree = "<group>"; };
-		521E87FA1BFFC2A80064E39E /* RouteInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteInformationView.m; sourceTree = "<group>"; };
-		521E87FB1BFFC2A80064E39E /* RouteInformationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteInformationView.xib; sourceTree = "<group>"; };
 		52B2559B1BFB599A00F422A1 /* Watch V-Teller Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch V-Teller Extension.entitlements"; sourceTree = "<group>"; };
 		52B2559C1BFB59D900F422A1 /* Watch V-Teller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch V-Teller.entitlements"; sourceTree = "<group>"; };
 		52B2559D1BFB59EC00F422A1 /* V-Teller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "V-Teller.entitlements"; sourceTree = "<group>"; };
@@ -343,9 +338,6 @@
 				521E87DE1BFF99450064E39E /* RootMapViewVCViewController.h */,
 				521E87DF1BFF99450064E39E /* RootMapViewVCViewController.m */,
 				521E87E01BFF99450064E39E /* RootMapViewVCViewController.xib */,
-				521E87F91BFFC2A80064E39E /* RouteInformationView.h */,
-				521E87FA1BFFC2A80064E39E /* RouteInformationView.m */,
-				521E87FB1BFFC2A80064E39E /* RouteInformationView.xib */,
 				521E87F01BFFBE420064E39E /* RouteMapUtil.h */,
 				521E87F11BFFBE420064E39E /* RouteMapUtil.m */,
 				521E87F31BFFBE6D0064E39E /* RouteLegBreakPointView.h */,
@@ -642,7 +634,6 @@
 			files = (
 				52BE16621BFB45EB00A31ECA /* LaunchScreen.storyboard in Resources */,
 				521E87E21BFF99450064E39E /* RootMapViewVCViewController.xib in Resources */,
-				521E87FD1BFFC2A80064E39E /* RouteInformationView.xib in Resources */,
 				52BE165F1BFB45EB00A31ECA /* Assets.xcassets in Resources */,
 				52BE165A1BFB45EB00A31ECA /* Main.storyboard in Resources */,
 			);
@@ -874,7 +865,6 @@
 				521E87EA1BFFB4BB0064E39E /* RouteSummary.m in Sources */,
 				521E87F21BFFBE420064E39E /* RouteMapUtil.m in Sources */,
 				521E87E61BFFB4A50064E39E /* BoundingBox.m in Sources */,
-				521E87FC1BFFC2A80064E39E /* RouteInformationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,10 +19,7 @@
     self.canShowCallout = YES;
     self.calloutOffset = CGPointMake(-5, 5);
     self.enabled = YES;
-    
-    UIButton *leftInfo = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-    leftInfo.tag = 1001;
-    self.leftCalloutAccessoryView = leftInfo;
+
     
     self.image = [UIImage imageNamed:@"MapPin"];
     

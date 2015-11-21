@@ -12,7 +12,6 @@
 #import "MRProgress.h"
 #import "RouteLegLine.h"
 #import "RouteMapUtil.h"
-#import "RouteInformationView.h"
 #import "RouteLegBreakPointView.h"
 
 
@@ -119,22 +118,6 @@
     return lineView;
 }
 
-// Handle annotation Callout taps
-- (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
-{
-    UINavigationController *navigationController;
-    
-    if(control.tag == 1001) {
-        RouteInformationView *infoVC = [[RouteInformationView alloc] init];
-        infoVC.summary = self.routeInfo.summary;
-        navigationController = [[UINavigationController alloc] initWithRootViewController:infoVC];
-    }
-    
-    [self presentViewController:navigationController animated:TRUE completion:^{
-        
-    }];
-    
-}
 
 //provide view of annotation
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
