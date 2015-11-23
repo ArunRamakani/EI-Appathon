@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "HEREPlacesDataProvider.h"
-#import "HERERoutesDataProvider.h"
 
-@interface VTellerWatchUtil : NSObject <HEREPlacesDataProviderDelegate, HERERouteDataProviderDelegate>
+
+@interface VTellerWatchUtil : NSObject <HEREPlacesDataProviderDelegate>
 
 -(void) fetchDataForIntractionType:(NSString*) type;
 

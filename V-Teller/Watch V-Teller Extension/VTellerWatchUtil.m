@@ -40,6 +40,10 @@
         
         [[NSNotificationCenter defaultCenter] postNotificationName:@"PublishNearestAtmBranch" object:placesList];
 
+    } else {
+        
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"PublishNearestAtmBranch" object:nil];
+        
     }
     
     
@@ -48,13 +52,11 @@
 // handle failure search
 -(void) didSearchFailWithError:(NSString *) errorMessage{
     
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"PublishNearestAtmBranch" object:nil];
     
 }
 
 
--(void) successWithRoute:(RouteInfo*) routeInfo {
-    
-}
 
 
 

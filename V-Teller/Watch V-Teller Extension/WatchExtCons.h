@@ -15,6 +15,7 @@ static NSString * const kSharedGroup        = @"group.com.NLP.Bank";
 static NSString * const kVoiceRecordFile    = @"recording.mp4";
 static NSString * const kRecoderSubmitTitle = @"Send";
 static int const        kServiceTimeOut     = 30;
+static BOOL             kAppInForeground    = TRUE;
 
 #define hereAppID @"0hQlV3YOltcgkvGAeQG6"
 

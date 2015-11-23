@@ -40,7 +40,9 @@
 		521E87F21BFFBE420064E39E /* RouteMapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F11BFFBE420064E39E /* RouteMapUtil.m */; };
 		521E87F71BFFBE6D0064E39E /* RouteLegBreakPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F41BFFBE6D0064E39E /* RouteLegBreakPointView.m */; };
 		521E87F81BFFBE6D0064E39E /* RouteLegLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 521E87F61BFFBE6D0064E39E /* RouteLegLine.m */; };
+		52649F611C02E24C00C3F797 /* ValicateUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52649F601C02E24C00C3F797 /* ValicateUser.m */; };
 		527326571C008C160099DBEF /* OfferView.m in Sources */ = {isa = PBXBuildFile; fileRef = 527326561C008C160099DBEF /* OfferView.m */; };
+		5273265A1C00FC6B0099DBEF /* OfferRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 527326591C00FC6B0099DBEF /* OfferRow.m */; };
 		52B2559F1BFB5E1800F422A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2559E1BFB5E1800F422A1 /* AVFoundation.framework */; };
 		52BE16511BFB45EB00A31ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16501BFB45EB00A31ECA /* main.m */; };
 		52BE16541BFB45EB00A31ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE16531BFB45EB00A31ECA /* AppDelegate.m */; };
@@ -163,8 +165,12 @@
 		521E87F41BFFBE6D0064E39E /* RouteLegBreakPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteLegBreakPointView.m; sourceTree = "<group>"; };
 		521E87F51BFFBE6D0064E39E /* RouteLegLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteLegLine.h; sourceTree = "<group>"; };
 		521E87F61BFFBE6D0064E39E /* RouteLegLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteLegLine.m; sourceTree = "<group>"; };
+		52649F5F1C02E24C00C3F797 /* ValicateUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValicateUser.h; sourceTree = "<group>"; };
+		52649F601C02E24C00C3F797 /* ValicateUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValicateUser.m; sourceTree = "<group>"; };
 		527326551C008C160099DBEF /* OfferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferView.h; sourceTree = "<group>"; };
 		527326561C008C160099DBEF /* OfferView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferView.m; sourceTree = "<group>"; };
+		527326581C00FC6B0099DBEF /* OfferRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferRow.h; sourceTree = "<group>"; };
+		527326591C00FC6B0099DBEF /* OfferRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferRow.m; sourceTree = "<group>"; };
 		52B2559B1BFB599A00F422A1 /* Watch V-Teller Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch V-Teller Extension.entitlements"; sourceTree = "<group>"; };
 		52B2559C1BFB59D900F422A1 /* Watch V-Teller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Watch V-Teller.entitlements"; sourceTree = "<group>"; };
 		52B2559D1BFB59EC00F422A1 /* V-Teller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "V-Teller.entitlements"; sourceTree = "<group>"; };
@@ -333,6 +339,8 @@
 				52BE16551BFB45EB00A31ECA /* ViewController.h */,
 				52BE16561BFB45EB00A31ECA /* ViewController.m */,
 				52BE16581BFB45EB00A31ECA /* Main.storyboard */,
+				52649F5F1C02E24C00C3F797 /* ValicateUser.h */,
+				52649F601C02E24C00C3F797 /* ValicateUser.m */,
 				52BE165E1BFB45EB00A31ECA /* Assets.xcassets */,
 				52BE16601BFB45EB00A31ECA /* LaunchScreen.storyboard */,
 				52BE16631BFB45EB00A31ECA /* Info.plist */,
@@ -411,6 +419,8 @@
 				521E87DC1BFF7AAE0064E39E /* MapInterfaceController.m */,
 				527326551C008C160099DBEF /* OfferView.h */,
 				527326561C008C160099DBEF /* OfferView.m */,
+				527326581C00FC6B0099DBEF /* OfferRow.h */,
+				527326591C00FC6B0099DBEF /* OfferRow.m */,
 			);
 			path = "Watch V-Teller Extension";
 			sourceTree = "<group>";
@@ -866,6 +876,7 @@
 				52BE16511BFB45EB00A31ECA /* main.m in Sources */,
 				521E87E71BFFB4AA0064E39E /* Place.m in Sources */,
 				521E87E91BFFB4B50064E39E /* RouteLeg.m in Sources */,
+				52649F611C02E24C00C3F797 /* ValicateUser.m in Sources */,
 				521E87E11BFF99450064E39E /* RootMapViewVCViewController.m in Sources */,
 				521E87EA1BFFB4BB0064E39E /* RouteSummary.m in Sources */,
 				521E87F21BFFBE420064E39E /* RouteMapUtil.m in Sources */,
@@ -903,6 +914,7 @@
 				521E87C61BFF4F720064E39E /* HERERoutesDataProvider.m in Sources */,
 				52BE169F1BFB479700A31ECA /* ExtensionDelegate.m in Sources */,
 				52BE169C1BFB479700A31ECA /* InterfaceController.m in Sources */,
+				5273265A1C00FC6B0099DBEF /* OfferRow.m in Sources */,
 				521E87C91BFF4F720064E39E /* RouteInfo.m in Sources */,
 				521E87C51BFF4F720064E39E /* HEREPlacesDataProvider.m in Sources */,
 				521E87C81BFF4F720064E39E /* Place.m in Sources */,
